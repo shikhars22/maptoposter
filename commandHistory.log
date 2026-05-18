@@ -1,0 +1,4 @@
+[2026-05-18 12:29:41] create_map_poster.py --help
+[2026-05-18 12:30:45] create_map_poster.py -c Patna -C India -lat 25.602297228634868 -long 85.2129330387777 -dc SKG Sasural -dC   -d 30000 -t japanese_ink
+[2026-05-18 12:34:17] generate_all_themes.py -c Kharar -C India
+[2026-05-18 12:34:17] create_map_poster.py -c Kharar -C India --all-themes

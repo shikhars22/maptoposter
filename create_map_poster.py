@@ -15,6 +15,11 @@ import pickle
 import sys
 import time
 from datetime import datetime
+
+# Log command to history
+with open("commandHistory.log", "a", encoding="utf-8") as f:
+    f.write(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] {' '.join(sys.argv)}\n")
+
 from pathlib import Path
 from typing import cast
 
